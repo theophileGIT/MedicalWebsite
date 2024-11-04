@@ -18,21 +18,11 @@ const Uses = () => {
            flex flex-col justify-center xl:pr-14"
           >
             <h1 className="text-3xl font-bold text-darkBlue">
-              How it Helps people
+              Notre équipe : Toujours là pour vous
             </h1>
             <p className=" text-gray-400 mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-              esse ab natus.
+              Il est très important de pouvoir établir une relation personnalisée avec son équipe médicale. Faites connaissance avec celle de notre cabinet.
             </p>
-            <p className="text-sm text-gray-400 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-              <a href="#" className="text-primary">
-                Learn More
-              </a>
-            </p>
-            <button className="w-fit mt-4 border border-gray-200 px-4 py-2 rounded-lg hover:bg-primary hover:text-white transform duration-300">
-              Get in Touch
-            </button>
           </motion.div>
           <motion.div
             variants={SlideLeft(0.4)}
@@ -40,7 +30,7 @@ const Uses = () => {
             initial="initial"
           >
             <img src={Img1} alt="" className="w-full rounded-3xl " />
-            <p className="text-gray-400 mt-4">Coronavirus</p>
+            <p className="text-gray-400 mt-4">Dr. Jean Berthe (photo)</p>
           </motion.div>
           <motion.div
             variants={SlideLeft(0.6)}
@@ -48,7 +38,7 @@ const Uses = () => {
             initial="initial"
           >
             <img src={Img2} alt="" className="w-full rounded-3xl" />
-            <p className="text-gray-400 mt-4">Diagnostic</p>
+            <p className="text-gray-400 mt-4">Dr. Sandrine CANION(photo)</p>
           </motion.div>
           <motion.div
             variants={SlideLeft(0.8)}
@@ -56,7 +46,7 @@ const Uses = () => {
             initial="initial"
           >
             <img src={Img3} alt="" className="w-full rounded-3xl" />
-            <p className="text-gray-400 mt-4">Symptoms</p>
+            <p className="text-gray-400 mt-4">Fanny (NOM) secrétaire (photo) </p>
           </motion.div>
         </div>
       </div>
